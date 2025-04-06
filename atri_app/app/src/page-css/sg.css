@@ -1,0 +1,276 @@
+.p-sg.Flex14 {
+display: flex;
+flex-direction: column;
+padding-left: 40px;
+padding-right: 40px;
+box-sizing: initial;
+overflow: visible;
+}
+.p-sg.Flex16 {
+display: flex;
+padding-top: 100px;
+column-gap: 90px;
+align-content: stretch;
+flex-wrap: no-wrap;
+flex-direction: row;
+justify-content: center;
+font-family: Plus Jakarta Sans;
+max-width: ;
+box-sizing: border-box;
+overflow: scroll;
+align-items: flex-start;
+}
+.p-sg.Flex19 {
+display: flex;
+align-items: flex-start;
+flex-direction: column;
+max-width: ;
+row-gap: 20px;
+}
+.p-sg.Flex22 {
+display: flex;
+flex-direction: column;
+row-gap: 8px;
+font-family: Plus Jakarta Sans;
+font-weight: 600;
+}
+.p-sg.Flex20 {
+display: flex;
+align-content: stretch;
+flex-direction: column;
+align-items: flex-start;
+padding-top: ;
+max-width: ;
+row-gap: 20px;
+}
+.p-sg.Flex23 {
+display: flex;
+flex-direction: column;
+row-gap: 8px;
+font-family: Plus Jakarta Sans;
+font-weight: 600;
+}
+.p-sg.Flex21 {
+display: flex;
+align-items: flex-start;
+flex-direction: column;
+max-width: ;
+row-gap: 20px;
+}
+.p-sg.Flex24 {
+display: flex;
+flex-direction: column;
+row-gap: 8px;
+font-family: Plus Jakarta Sans;
+font-weight: 600;
+}
+.p-sg.Flex26 {
+display: flex;
+margin-top: 40px;
+background-color: #000000;
+padding-left: 40px;
+padding-right: 40px;
+color: #fffefe;
+height: ;
+align-items: flex-start;
+padding-top: 70px;
+padding-bottom: 70px;
+}
+.p-sg.Flex27 {
+display: flex;
+flex-grow: 1;
+flex-direction: column;
+row-gap: 70px;
+font-family: Plus Jakarta Sans;
+}
+.p-sg.Flex34 {
+display: flex;
+flex-direction: column;
+border-style: none;
+}
+.p-sg.Flex35 {
+display: flex;
+flex-direction: column;
+}
+.p-sg.Flex36 {
+display: flex;
+flex-direction: column;
+}
+.p-sg.Flex38 {
+display: flex;
+flex-direction: column;
+}
+.p-sg.Flex44 {
+display: flex;
+flex-direction: column;
+}
+.p-sg.Flex28 {
+display: flex;
+width: 30%;
+justify-content: flex-start;
+flex-direction: column;
+align-items: stretch;
+font-family: Plus Jakarta Sans;
+row-gap: 10px;
+}
+.p-sg.TextBox15 {
+text-align: center;
+border-width: ;
+font-family: Plus Jakarta Sans;
+font-size: 24px;
+}
+.p-sg.TextBox16 {
+text-align: center;
+padding-top: 20px;
+font-family: Plus Jakarta Sans;
+font-weight: 700;
+font-size: 47px;
+}
+.p-sg.TextBox17 {
+font-family: Plus Jakarta Sans;
+font-weight: 700;
+font-size: 47px;
+text-align: center;
+}
+.p-sg.Image3 {
+width: 60px;
+height: 60px;
+}
+.p-sg.TextBox20 {
+padding-top: ;
+font-family: Plus Jakarta Sans;
+font-weight: 700;
+font-size: 19px;
+}
+.p-sg.TextBox23 {
+padding-top: ;
+max-width: 200px;
+font-family: Plus Jakarta Sans;
+font-weight: 200;
+}
+.p-sg.TextBox33 {
+;
+}
+.p-sg.TextBox34 {
+;
+}
+.p-sg.TextBox35 {
+;
+}
+.p-sg.Image4 {
+width: 60px;
+height: 60px;
+}
+.p-sg.TextBox21 {
+padding-top: ;
+font-family: Plus Jakarta Sans;
+font-weight: 700;
+font-size: 19px;
+}
+.p-sg.TextBox24 {
+padding-top: ;
+max-width: 200px;
+font-family: Plus Jakarta Sans;
+font-weight: 200;
+}
+.p-sg.TextBox36 {
+;
+}
+.p-sg.TextBox37 {
+;
+}
+.p-sg.TextBox38 {
+;
+}
+.p-sg.TextBox31 {
+padding-top: ;
+max-width: 200px;
+font-family: Plus Jakarta Sans;
+font-size: ;
+font-weight: 200;
+}
+.p-sg.TextBox32 {
+padding-top: ;
+font-family: Plus Jakarta Sans;
+font-weight: 700;
+font-size: 19px;
+}
+.p-sg.Image5 {
+width: 60px;
+height: 60px;
+}
+.p-sg.TextBox39 {
+;
+}
+.p-sg.TextBox40 {
+;
+}
+.p-sg.TextBox41 {
+;
+}
+.p-sg.TextBox48 {
+font-family: Plus Jakarta Sans;
+font-weight: 600;
+font-size: 28px;
+}
+.p-sg.TextBox51 {
+;
+}
+.p-sg.TextBox49 {
+font-family: Plus Jakarta Sans;
+font-weight: 600;
+font-size: 28px;
+}
+.p-sg.TextBox52 {
+;
+}
+.p-sg.TextBox50 {
+font-family: Plus Jakarta Sans;
+font-weight: 600;
+font-size: 28px;
+}
+.p-sg.TextBox53 {
+;
+}
+.p-sg.TextBox56 {
+;
+}
+.p-sg.TextBox57 {
+font-family: Plus Jakarta Sans;
+font-weight: 600;
+font-size: 28px;
+}
+.p-sg.TextBox68 {
+font-family: Plus Jakarta Sans;
+font-weight: 600;
+font-size: 28px;
+}
+.p-sg.TextBox69 {
+;
+}
+.p-sg.TextBox43 {
+font-family: Plus Jakarta Sans;
+font-weight: 700;
+font-size: 30px;
+}
+.p-sg.TextBox44 {
+font-family: Plus Jakarta Sans;
+font-weight: 700;
+font-size: 42px;
+}
+@media screen and (max-width: 767px) {
+	.p-sg.Flex26.bpt {
+column-gap: 30px;
+	}
+}
+@media screen and (max-width: 478px) {
+	.p-sg.Flex16.bpt {
+flex-direction: column;
+align-items: center;
+row-gap: 40px;
+	}
+	.p-sg.Flex26.bpt {
+flex-direction: column;
+row-gap: 40px;
+	}
+}
