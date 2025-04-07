@@ -1,6 +1,9 @@
 /* General styling */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   padding: 0 20%;
   line-height: 1.6;
   color: #333;
@@ -35,10 +38,6 @@ nav a {
   padding: 40px 0;
 }
 
-.intro h1 {
-  font-size: 2.5rem;
-}
-
 .intro span {
   color: #ff7b7b;
 }
@@ -48,15 +47,45 @@ nav a {
   border-radius: 8px;
 }
 
+.intro h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+
+.intro span {
+  color: #ff7b7b;
+}
+
+.intro p {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #666;
+}
+
+
+
 /* Skills & Certificates Section */
 .skills {
   padding: 30px 0;
+  text-align: center;
+
 }
 
 .skill-set {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
+}
+
+.skill-card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+  color: #333;
 }
 
 .languages ul,
@@ -70,6 +99,7 @@ nav a {
   padding: 4px 0;
 }
 
+
 /* Education & Work Experience Section */
 .edu-work {
   display: flex;
@@ -78,16 +108,30 @@ nav a {
   padding: 30px 0;
 }
 
+.edu-work .card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+  flex: 1;
+}
+
 .edu-work h2,
 .skills h2,
-.papers h2,
-.contact h2 {
+.papers h2 {
   margin-bottom: 15px;
+  padding: 15px;
+  color: #ff7b7b;
+  text-align: center;
 }
 
 .edu-work ul {
   list-style: none;
   padding: 0;
+}
+
+.edu-work li {
+  margin-bottom: 25px;
 }
 
 .edu-work li span {
@@ -151,6 +195,12 @@ nav a {
   text-decoration: none;
 }
 
+.contact i {
+  color: white;
+  font-size: 30px;
+}
+
+
 /* Responsive design */
 @media (max-width: 768px) {
   .intro,
@@ -174,4 +224,5 @@ nav a {
   .contact {
     padding: 20px;
   }
+
 }

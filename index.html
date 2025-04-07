@@ -4,8 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
   <title>Portfolio</title>
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
   <!-- Header -->
@@ -22,37 +26,25 @@
     <div>
       <h1>I am <span>AI engineer</span> based in Korea</h1>
       <p>I hold a Bachelor's in Computer Science and a Master's in Applied Artificial Intelligence.</p>
-      <button class="btn">Contact Me</button>
+      
       <a href="#">Download resume →</a>
     </div>
     <img src="profile.jpg" alt="Profile Picture">
   </section>
 
-  <!-- Skills & Certificates -->
-  <section class="skills">
-    <h2>Skills & Certificates</h2>
-    <div class="skill-set">
-      <div>
-        <h3>Programming Languages</h3>
-        <p>Python, Java, C/C++</p>
-      </div>
-      <div>
-        <h3>AI & Technical Certifications</h3>
-        <p>eg</p>
-      </div>
-      <div>
-        <h3>Extracurricular Certifications</h3>
-        <ul>
-          <li>Best Incheon International Airport member 2024</li>
-          <li>Salam Seoul Ambassador 2024</li>
-          <li>Best Salam Seoul Ambassador 2023</li>
-          <li>Best Korea Arab Society member 2023</li>
-          <li>PlusPlanner member 2023</li>
-          <li>Korea Travel Mate member 2023</li>
-        </ul>
-      </div>
+<!-- Skills & Certificates -->
+<section class="skills">
+  <h2>Skills & Certificates</h2>
+  <div class="skill-set">
+    <div class="skill-card">
+      <h3>Programming Languages</h3>
+      <p>Python, Java, C/C++</p>
     </div>
-    <div class="languages">
+    <div class="skill-card">
+      <h3>AI & Technical Certifications</h3>
+      <p>examples</p>
+    </div>
+    <div class="skill-card">
       <h3>Languages</h3>
       <ul>
         <li>English: Business fluent</li>
@@ -61,38 +53,57 @@
         <li>Arabic: Native</li>
       </ul>
     </div>
-  </section>
-
-     <!-- Paper submissions -->
-     <section class="papers">
-      <h2>Paper submissions</h2>
+    <div class="skill-card">
+      <h3>Extracurricular Certifications</h3>
       <ul>
-        <li>ITC-CSCC 2025 - PAPER TITLE</li>
-        <li>IEEE Journal - PAPER TITLE</li>
-        <li>Computer Human Interface (CHI) International Conference 2025 - PAPER TITLE</li>
-        <li>Scientific Data Journal, Rank - PAPER TITLE</li>
-        <li>ITC-CSCC 2024 - PAPER TITLE</li>
-      </ul>
-    </section>
-
-  <!-- Education and Work Experience -->
-  <section class="edu-work">
-    <div>
-      <h2>Education</h2>
-      <ul>
-        <li>Seoul National University of Science&Technology <span>2023-2025</span></li>
-        <li>Daejeon University <span>2022-2023</span></li>
-        <li>Higher Institute of Computer Science <span>2019-2022</span></li>
+        <li>Best Incheon International Airport member 2024</li>
+        <li>Salam Seoul Ambassador 2024</li>
+        <li>Best Salam Seoul Ambassador 2023</li>
+        <li>Best Korea Arab Society member 2023</li>
+        <li>PlusPlanner member 2023</li>
+        <li>Korea Travel Mate member 2023</li>
       </ul>
     </div>
-    <div>
-      <h2>Work Experience</h2>
-      <ul>
-        <li>BrAIn Laboratory <span>2023-2025</span></li>
-        <li>Scheidt & Bachmann Maghreb <span>2022</span></li>
-      </ul>
-    </div>
-  </section>
+    
+  </div>
+</section>
+
+<!-- Paper submissions -->
+<section class="papers">
+  <h2>Paper submissions</h2>
+  <ul>
+    <li>ITC-CSCC 2025 - Federated Learning: Towards secure and efficient EEG classification</li>
+    <li>IEEE Journal - Design and Evaluation of Dual-Channel EEG Feature Fusion of
+    Auditory and Visual Stimuli for Wearable Biometric Modalities </li>
+    <li>Computer Human Interface (CHI) 2025 Conference - Exploring Ear EEG Role In Personalized Learning</li>
+    <li>Scientific Data Journal - MindEEG: Novel Dataset for EEG biometric task </li>
+    <li>
+      <a href="https://ieeexplore.ieee.org/document/10628204" target="_blank">
+        ITC-CSCC 2024 conference - Multimodal Machine Learning Model For MCI Detection Using EEG, MRI and VR Data
+      </a>
+    </li>
+  </ul>
+</section>
+
+
+ <!-- Education and Work Experience -->
+ <section class="edu-work">
+  <div class="card">
+    <h2>Education</h2>
+    <ul>
+      <li>Seoul National University of Science&Technology <span>2023-2025</span></li>
+      <li>Daejeon University <span>2022-2023</span></li>
+      <li>Higher Institute of Computer Science <span>2019-2022</span></li>
+    </ul>
+  </div>
+  <div class="card">
+    <h2>Work Experience</h2>
+    <ul>
+      <li>BrAIn Laboratory <span>2023-2025</span></li>
+      <li>Scheidt & Bachmann Maghreb <span>2022</span></li>
+    </ul>
+  </div>
+</section>
 
 
 
@@ -100,7 +111,9 @@
   <section class="contact" id="contact">
     <h2>Get in touch</h2>
     <p>Feel free to contact me at <a href="mailto:mariemkallel36@gmail.com">mariemkallel36@gmail.com</a></p>
-    <a href="#"><i class="fab fa-linkedin"></i></a>
+    <a href="https://www.linkedin.com/in/mariem-kallel/" target="_blank">
+      <i class="fab fa-linkedin-in" style="color: white; font-size: 30px;"></i>
+    </a>
   </section>
 
 </body>
