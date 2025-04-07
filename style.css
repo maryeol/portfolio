@@ -1,103 +1,158 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-  }
-  
-  body {
-    line-height: 1.6;
-    padding: 0 5%;
-  }
-  
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0;
-  }
-  
-  nav a {
-    text-decoration: none;
-    margin-left: 15px;
-  }
-  
-  .btn {
-    background-color: black;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-  }
-  
-  .intro {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 40px 0;
-  }
-  
-  .intro img {
-    max-width: 300px;
-    border-radius: 10px;
-  }
-  
-  .intro h1 {
-    font-size: 2.5rem;
-  }
-  
-  .intro span {
-    color: salmon;
-  }
-  
-  .edu-work, .skills, .papers, .contact {
-    padding: 40px 0;
-    border-top: 1px solid #eee;
-  }
-  
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  padding: 0 20%;
+  line-height: 1.6;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+nav a {
+  text-decoration: none;
+  margin-left: 15px;
+  color: #000;
+}
+
+.btn {
+  background-color: #000;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Intro Section */
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.intro h1 {
+  font-size: 2.5rem;
+}
+
+.intro span {
+  color: #ff7b7b;
+}
+
+.intro img {
+  width: 300px;
+  border-radius: 8px;
+}
+
+/* Skills & Certificates Section */
+.skills {
+  padding: 30px 0;
+}
+
+.skill-set {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.languages ul,
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.languages li,
+.skills li {
+  padding: 4px 0;
+}
+
+/* Education & Work Experience Section */
+.edu-work {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 30px 0;
+}
+
+.edu-work h2,
+.skills h2,
+.papers h2,
+.contact h2 {
+  margin-bottom: 15px;
+}
+
+.edu-work ul {
+  list-style: none;
+  padding: 0;
+}
+
+.edu-work li span {
+  color: #888;
+  margin-left: 10px;
+  font-size: 0.9rem;
+}
+
+/* Papers Section */
+.papers {
+  background-color: #000;
+  color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.papers ul {
+  list-style: none;
+  padding: 0;
+}
+
+.papers li {
+  padding: 15px 0;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #333;
+}
+
+.papers li:last-child {
+  border-bottom: none;
+}
+
+/* Contact Section */
+.contact {
+  background-color: #000;
+  color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  font-size: 1.5rem;
+}
+
+.contact a {
+  color: #0a66c2;
+  text-decoration: none;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .intro,
+  .skill-set,
   .edu-work {
-    display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
   }
-  
-  .edu-work ul, .papers ul {
-    list-style: none;
+
+  header {
+    flex-direction: column;
   }
-  
-  .skill-set {
-    display: flex;
-    justify-content: space-between;
+
+  .intro img {
+    width: 100%;
+    margin-top: 20px;
   }
-  
+
+  .papers,
   .contact {
-    text-align: left;
-    background-color: black;
-    color: white;
     padding: 20px;
-    border-radius: 10px;
   }
-  
-  .contact a {
-    color: #0A66C2;
-    text-decoration: none;
-  }
-  
-  @media (max-width: 768px) {
-    .intro, .edu-work, .skill-set {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    .intro img {
-      margin-top: 20px;
-    }
-  
-    header {
-      flex-direction: column;
-    }
-  
-    nav {
-      margin-top: 10px;
-    }
-  }
-  
+}
