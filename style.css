@@ -102,21 +102,39 @@ nav a {
   color: #fff;
   padding: 40px;
   border-radius: 8px;
+  display: flex;
+  gap: 50px;
+}
+
+.papers .title-col {
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .papers ul {
   list-style: none;
   padding: 0;
+  flex-grow: 1;
 }
 
 .papers li {
   padding: 15px 0;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   border-bottom: 1px solid #333;
 }
 
 .papers li:last-child {
   border-bottom: none;
+}
+
+.papers li .paper-title {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.papers li .conference-info {
+  font-size: 0.9rem;
+  color: #aaa;
 }
 
 /* Contact Section */
@@ -137,7 +155,8 @@ nav a {
 @media (max-width: 768px) {
   .intro,
   .skill-set,
-  .edu-work {
+  .edu-work,
+  .papers {
     flex-direction: column;
     gap: 20px;
   }
