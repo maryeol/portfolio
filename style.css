@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    line-height: 1.6;
+    padding: 0 5%;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    margin-left: 15px;
+  }
+  
+  .btn {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+  }
+  
+  .intro img {
+    max-width: 300px;
+    border-radius: 10px;
+  }
+  
+  .intro h1 {
+    font-size: 2.5rem;
+  }
+  
+  .intro span {
+    color: salmon;
+  }
+  
+  .edu-work, .skills, .papers, .contact {
+    padding: 40px 0;
+    border-top: 1px solid #eee;
+  }
+  
+  .edu-work {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .edu-work ul, .papers ul {
+    list-style: none;
+  }
+  
+  .skill-set {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .contact {
+    text-align: left;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .contact a {
+    color: #0A66C2;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 768px) {
+    .intro, .edu-work, .skill-set {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .intro img {
+      margin-top: 20px;
+    }
+  
+    header {
+      flex-direction: column;
+    }
+  
+    nav {
+      margin-top: 10px;
+    }
+  }
+  
