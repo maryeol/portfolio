@@ -68,37 +68,75 @@ nav a {
 
 
 /* Skills & Certificates Section */
-.skills {
-  padding: 30px 0;
-  text-align: center;
+.languages ul {
+  list-style: none;
+  padding: 0;
+}
 
+.languages li {
+  padding: 4px 0;
+}
+
+
+.skills {
+  background-color: #fff;
+  color: #333;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin-top: 40px;
+}
+
+.skills h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #ff7b7b;
+  margin-bottom: 2rem;
 }
 
 .skill-set {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+  gap: 30px;
 }
 
 .skill-card {
-  background-color: #f9f9f9;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.5);
-  color: #333;
+  background-color: #fdfdfd;
+  padding: 20px 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.07);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.languages ul,
-.skills ul {
-  list-style: none;
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 18px rgba(0,0,0,0.1);
+}
+
+.skill-card h3 {
+  font-size: 1.3rem;
+  color: #444;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 8px;
+}
+
+.skill-card p,
+.skill-card ul {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
   padding: 0;
+  color: #555;
 }
 
-.languages li,
-.skills li {
-  padding: 4px 0;
+.skill-card ul {
+  list-style: disc inside;
 }
 
+.skill-card li {
+  margin-bottom: 8px;
+}
 
 /* Education & Work Experience Section */
 .edu-work {
@@ -139,6 +177,83 @@ nav a {
   margin-left: 10px;
   font-size: 0.9rem;
 }
+
+
+
+.work {
+  display: flex;
+  background-color: #fff; /* changed to white */
+  color: #000; /* black text for readability */
+  padding: 40px;
+  border-radius: 8px;
+  gap: 50px;
+}
+
+.work .title-col {
+  font-size: 2rem;
+  font-weight: bold;
+  flex-shrink: 0;
+  width: 300px;
+  padding-top: 10px;
+}
+
+.work .content-col {
+  flex-grow: 1;
+}
+
+.work ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.work li {
+  background-color: #f8f8f8;
+  border-radius: 1rem;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  margin-bottom: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.work li:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.1);
+}
+
+.work li strong {
+  font-size: 1.2rem;
+  color: #000;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.work li a {
+  color: #ff7b7b;
+  text-decoration: none;
+}
+
+.work li a:hover {
+  text-decoration: underline;
+}
+
+.work li br + br {
+  margin-top: 0.5rem;
+}
+
+
+@media (min-width: 768px) {
+  .papers ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .papers ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 
 /* Papers Section */
 .papers {
