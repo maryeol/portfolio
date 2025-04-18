@@ -340,4 +340,119 @@ nav a {
     padding: 20px;
   }
 
+
+  /* Responsive adjustments */
+@media (max-width: 1024px) {
+
+  header {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+  }
+
+  body {
+    padding: 0 5%;
+  }
+
+  .skill-set {
+    grid-template-columns: 1fr;
+  }
+
+  .papers,
+  .work,
+  .edu-work {
+    flex-direction: column;
+  }
+
+  .papers .title-col,
+  .work .title-col {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 450px) {
+  body {
+    padding: 0 3%;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+  }
+
+  header nav {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  .intro {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .intro h1 {
+    font-size: 2rem;
+  }
+
+  .intro img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .work,
+  .papers,
+  .edu-work {
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .skill-card {
+    padding: 15px;
+  }
+
+  .skills {
+    padding: 20px;
+  }
+
+  .contact {
+    font-size: 1.2rem;
+  }
+
+  .papers ul,
+  .work ul {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .intro h1 {
+    font-size: 1.5rem;
+  }
+
+  .intro p,
+  .skill-card p,
+  .skill-card li {
+    font-size: 0.95rem;
+  }
+
+  .papers li .paper-title {
+    font-size: 1.1rem;
+  }
+
+  nav a {
+    font-size: 0.9rem;
+  }
+}
+
+
 }
