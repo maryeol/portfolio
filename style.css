@@ -230,7 +230,8 @@ nav a {
 
 .work li a {
   color: #ff7b7b;
-  text-decoration: none;
+  text-decoration: underline;
+
 }
 
 .work li a:hover {
