@@ -12,9 +12,9 @@
 <body>
   <!-- Header -->
   <header>
-    <h2>mariem kallel</h2>
+    <h2>Mariem Kallel</h2>
     <nav>
-      <a href="mariemkallelcv.pdf" download>Resume</a>
+      <a href="mariemkallelcv.pdf"  class="btn-r" download>Resume</a>
       <a href="#contact" class="btn">Contact Me</a>
     </nav>
   </header>
@@ -22,18 +22,64 @@
   <!-- Introduction Section -->
   <section class="intro">
     <div>
-      <h3>
-        I was awarded the 
-        <a href="https://www.studyinkorea.go.kr/ko/plan/scholarship.do" target="_blank">
-          Korean Government Scholarship
-        </a>.
-      </h3>
-      <h1>I am expected to graduate as <span>AI engineer</span> in August 2025  </h1>
-      <p>I hold a Bachelor's in Computer Science and a Master's in Applied Artificial Intelligence.</p>
+      
+      <h1>I hold a Bachelor's degree in <span>Computer Science</span> and a Master's in  <span>Artificial Intelligence Engineering</span>  </h1>
+      <p>My professional interests are focused on deep learning, signal processing, human-computer interaction (HCI) and developing AI-driven solutions for real-world problems.
+        
+      I am currently affiliated with BrAIn Lab at Seoul National University Of Science&Technology,
+       where I actively research about EEG-based artificial intelligence systems.</p>
       <a href="mariemkallelcv.pdf" download>Download resume →</a>
     </div>
-    <img src="profile.jpg" alt="Profile Picture">
+    
   </section>
+
+   <!-- Education Section -->
+   <section class="papers">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>Seoul National University of Science & Technology : Master's in AI</strong> (2023–2025)</li>
+      <li><strong>Daejeon University : Korean Language</strong> (2022–2023)</li>
+      <li><strong>Higher Institute of Computer Science : Bachelor in Computer Science - CGPA: 3.65/4.00</strong> (2019–2022)</li>
+    </ul>
+  </section>
+
+  
+ <!-- Work Experience Section -->
+<section class="work">
+  <div class="title-col">
+    <h2>Work Experience</h2>
+  </div>
+  <div class="content-col">
+    <ul>
+      <li>
+        <strong>Student Researcher at <a href="https://www.brainailab.com/" target="_blank">BrAIn Lab</a> (01/2023–08/2025)</strong><br>
+        Understanding the brain mechanisms and developing brain-inspired artificial intelligence.<br>
+        Working on brain signal data (EEG) and establishing EEG-based AI systems.<br>
+        Creating a novel EEG dataset publicly available for researchers interested in exploring human EEG data.
+
+        <strong>Technologies:</strong> Python, PyTorch, MATLAB, EEG data analysis, Signal Processing, Machine Learning, Deep Learning
+      </li>
+      <li>
+        <strong>Software Engineering Intern at <a href="https://www.scheidt-bachmann-maghreb.com/en/" target="_blank">Scheidt & Bachmann Maghreb</a> (01/2022-06/2022)</strong><br>
+        Development of a mobile app for smart parking using Bluetooth Low Energy and beacons.<br>
+        Android app built with Java and Android Studio.<br>
+        IoT modules programmed in C and Python.<br>
+        The app emits Bluetooth signals that are detected by beacons in parking lots.<br>
+        A server-side model detects the car's presence in front of the gate to trigger automatic barrier opening.
+
+        <strong>Technologies:</strong> Java, Android Studio, Bluetooth Low Energy (BLE), Beacons, C, Python, IoT
+      </li>
+      <li>
+        <strong>Web Development Intern at <a href="https://eliosacademy.com/" target="_blank">Elios Academy</a> (06/2021-09/2021)</strong><br>
+        Development of an e-learning platform for students and instructors.<br>
+        Handling front-end development using Angular.<br>
+        Ensuring responsive design and smooth user experience across devices.
+        
+        <strong>Technologies:</strong> Angular, TypeScript, HTML, CSS, Bootstrap, REST APIs
+      </li>
+    </ul>
+  </div>
+</section>
 
   <!-- paper submission Section -->
   <section class="papers">
@@ -87,49 +133,6 @@
   </section>
 
 
- <!-- Work Experience Section -->
-<section class="work">
-  <div class="title-col">
-    <h2>Work Experience</h2>
-  </div>
-  <div class="content-col">
-    <ul>
-      <li>
-        <strong>Researcher at <a href="https://www.brainailab.com/" target="_blank">BrAIn Lab</a> (2023–2025)</strong><br>
-        Understanding the brain mechanisms and developing brain-inspired artificial intelligence.<br>
-        Working on brain signal data (EEG) and establishing EEG-based AI systems.<br>
-        Creating a novel EEG dataset publicly available for researchers interested in exploring human EEG data.
-      </li>
-      <li>
-        <strong>Software Engineering Intern at <a href="https://www.scheidt-bachmann-maghreb.com/en/" target="_blank">Scheidt & Bachmann Maghreb</a> (2022)</strong><br>
-        Development of a mobile app for smart parking using Bluetooth Low Energy and beacons.<br>
-        Android app built with Java and Android Studio.<br>
-        IoT modules programmed in C and Python.<br>
-        The app emits Bluetooth signals that are detected by beacons in parking lots.<br>
-        A server-side model detects the car's presence in front of the gate to trigger automatic barrier opening.
-      </li>
-      <li>
-        <strong>Web Development Intern at <a href="https://eliosacademy.com/" target="_blank">Elios Academy</a> (2021)</strong><br>
-        Development of an e-learning platform for students and instructors.<br>
-        Handling front-end development using Angular.<br>
-        Ensuring responsive design and smooth user experience across devices.
-      </li>
-    </ul>
-  </div>
-</section>
-
-
-
-  <!-- Education Section -->
-  <section class="papers">
-    <h2>Education</h2>
-    <ul>
-      <li><strong>Seoul National University of Science & Technology : Master's in AI</strong> (2023–2025)</li>
-      <li><strong>Daejeon University : Korean Language</strong> (2022–2023)</li>
-      <li><strong>Higher Institute of Computer Science : Bachelor in Computer Science - CGPA: 3.65/4.00</strong> (2019–2022)</li>
-    </ul>
-  </section>
-
   <!-- Skills & Certificates -->
   <section class="skills">
     <h2>Skills & Certificates</h2>
@@ -140,7 +143,11 @@
       </div>
       <div class="skill-card">
         <h3>Awards</h3>
-        <p>GKS Awardee, Korea Government Scholarship Program</p>
+        <p>
+          <a href="https://www.studyinkorea.go.kr/ko/plan/scholarship.do">
+            GKS Awardee 2022, Korea Government Scholarship Program
+          </a>
+        </p>
       </div>
       <div class="skill-card">
         <h3>Languages</h3>
@@ -167,11 +174,7 @@
 
  
 
-  
-
-
-
-  <!-- Contact -->
+    <!-- Contact -->
   <section class="contact" id="contact">
     <h2>Get in touch</h2>
     <p>Feel free to contact me at <a href="mailto:mariemkallel36@gmail.com">mariemkallel36@gmail.com</a></p>
