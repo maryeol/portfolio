@@ -1,0 +1,255 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mariem Kallel - Digital Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #fffafc;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #ffdee9;
+      background: linear-gradient(to right, #ffdee9, #b5fffc);
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #555;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      margin-bottom: 1rem;
+      color: #f472b6;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1rem;
+    }
+    .card {
+      background: #ffffff;
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      width: 100%;
+    }
+
+    .card h3 {
+      font-size: 26px;
+      margin-bottom: 25px;
+      color: #333333;
+      text-align: center;
+    }
+
+    ol {
+      list-style: none;
+      padding: 0;
+      counter-reset: reel-counter;
+    }
+
+    ol li {
+      position: relative;
+      background: #f0f4f8;
+      padding: 16px 20px 16px 50px;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      transition: background 0.3s ease;
+    }
+
+    ol li:hover {
+      background: #ddeeff;
+    }
+
+    ol li::before {
+      counter-increment: reel-counter;
+      content: counter(reel-counter);
+      position: absolute;
+      left: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: #0077b6;
+      color: #ffffff;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 24px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    ol li a {
+      color: #0077b6;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    ol li a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #fef2f2;
+    }
+    @media (max-width: 600px) {
+      header h1 { font-size: 2rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mariem Kallel</h1>
+    <p>Content Creator | Digital Marketing | Trend Enthusiast</p>
+  </header>
+
+  <section>
+    <h2>✨ About Me</h2>
+    <p>I’m Mariem, a creative and fast-learning content creator with a deep passion for digital storytelling, marketing trends, and visual aesthetics. In Korea, I’ve collaborated with travel agencies, k-beauty companies and joined
+        influencers' programs to promote products and several events on social media campaigns to engage both local & global audiences.</p>
+  </section>
+
+  <section>
+    <h2>💼 Experience Highlights</h2>
+    <ul>
+      
+      <li>Best Salam Seoul Ambassador (2023 & 2024) – Instagram Reels, Vlogs, Youtube Lives, Interviews</li>
+      <li>Best Incheon International Airport Supporter Team 2024 – Instagram Reels, YouTube Vlogs</li>
+      <li>Best Korea-Arab-Society Supporter Team 2023 – YouTube Vlogs, Instagram Cards</li>
+      <li>Best Plus Planner Supporter 2023 – Instagram Cards, Instagram Reels</li>
+      <li>Jeonnam Supporter 2023 – Instagram Cards, Instagram Reels</li>
+      <li>Mokpo Family supporter 2023 – Instagram Cards, Instagram Reels</li>
+      <li>Korea Travel Mate Supporter 2023 – Instagram Cards, Instagram Reels</li>
+      <li>Busan Supporters 2022 – Instagram Cards, Instagram Reels</li>
+      <li>Head of Marketing Department Freeways ISI 2022 (Tunisia) - Events, Social Media Management, Team Management</li>
+    </ul>
+  </section>
+
+    <section>
+    <h2>💼 Certificates</h2>
+    <ul>
+      <li><p>Canva Design School Certificate 2025</p></li>
+      <li><p>Google Digital Marketing & E-commerce Certificate 2024</p></li>
+      <li><p>Google Data Analytics Certificate 2024</p></li>
+      <li><p>Google UX Design Certificate 2024</p></li>
+      <li><p>Certifcate of participation in promoting The Geumsan Insam(Ginseng) Festival 2024</p></li>
+      <li><p>Certificate of Gyeongnam Supporters 2024</p></li>
+      <li><p>Volunteer Work Certificate in Daejeon's World People Festival 2023</p>
+      <li><p>Certifcate of KFood Ambassador 2023</p></li>
+      
+</li>
+    </ul>
+    
+  </section>
+
+  <section>
+    <h2>🎬 Featured Works</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Korea Arab Society YouTube Contents</h3>
+        <ol>
+        <li><a href="https://www.youtube.com/watch?v=ks4f5RZ7vNk" target="_blank">Watch Vlog</a></li>
+        <li><a href="https://www.youtube.com/watch?v=_gHpdwJhYVk" target="_blank">Watch Video</a></li>
+          </ol>
+      </div>
+<div class="card">
+  <h3>Salam Seoul Contents</h3>
+  <ol>
+    <li><a href="https://www.instagram.com/reel/CsA5nFYgGWw/" target="_blank">Event Promo Reel</a></li>
+    <li><a href="https://www.youtube.com/watch?v=JE_kv-VSpVE " target="_blank">Watch Live</a></li>
+    <li><a href="https://www.youtube.com/watch?v=bCP9gnShdUU" target="_blank">Watch Interview</a></li>
+    <li><a href="https://www.instagram.com/reel/DC6ubInTM2y/?igsh=MWM4NHp6cHl3N2J2cA==" target="_blank">Instagram Reel</a></li>
+    <li><a href="https://www.instagram.com/reel/DC0xclnz7RW/?igsh=YzF6d2ViZzkwdjA3" target="_blank">Instagram Reel</a></li>
+    <li><a href="https://www.instagram.com/reel/DCdCQ2xPhRS/?igsh=MTlmeTNvZTE1aGpqNw==" target="_blank">Instagram Reel</a></li>
+    <li><a href="https://www.instagram.com/reel/DCBVDk0zN9Z/?igsh=NWdoeml4MnpkY2gx" target="_blank">Instagram Reel</a></li>
+    <li><a href="https://www.instagram.com/reel/C7jdM0QyUEm/?igsh=anY1MGVpNzR0cTR2" target="_blank">Instagram Reel</a></li>
+    <li><a href="https://www.instagram.com/reel/CsGfUxBAlW6/" target="_blank">Instagram Reel</a></li>
+    <li><a href="https://www.instagram.com/reel/CvHb1fhA_8A/" target="_blank">Instagram Reel</a></li>
+    <li><a href="https://www.instagram.com/reel/CvMQ2RWgkqQ/" target="_blank">Instagram Reel</a></li>
+    <li><a href="https://www.instagram.com/reel/CvRoXvWymU-/" target="_blank">Instagram Reel</a></li>
+    <li><a href="https://www.instagram.com/reel/CwAFiobSQ54/" target="_blank">Instagram Reel</a></li>
+    <li><a href="https://www.instagram.com/reel/CxuZ8h7yo2h/" target="_blank">Instagram Reel</a></li>
+    <li><a href="https://www.instagram.com/reel/Cy3LMyxSXP1/" target="_blank">Instagram Reel</a></li>
+  </ol>
+</div>
+
+      <div class="card">
+        <h3>Other Youtube Videos</h3>
+        <ol>
+<li><a href="https://www.youtube.com/watch?v=zD2sYyDDlMI&t=398s" target="_blank">Watch Interview #1</a></li>
+<li><a href="https://www.youtube.com/watch?v=fkVujMSj1w4&t=144s" target="_blank">Watch Interview #2</a></li>
+<li><a href="https://www.youtube.com/watch?v=r9_QausXe-A&t=60s" target="_blank">Watch Interview #3</a></li> 
+<li><a href="https://www.youtube.com/watch?v=zD2sYyDDlMI&t=398s" target="_blank">Watch Airport Vlog #1</a></li>
+<li><a href="https://www.youtube.com/watch?v=fkVujMSj1w4&t=144s" target="_blank">Watch Airport Vlog #2</a></li>
+<li><a href="https://www.youtube.com/watch?v=r9_QausXe-A&t=60s" target="_blank">Watch Airport Vlog #3</a></li>
+
+
+
+
+</ol>      
+</div>
+
+
+      <div class="card">
+  <h3>K-beauty Aesthetics Contents</h3>
+  <ol>
+    
+    <li><a href="https://www.instagram.com/reel/C5yIbzEyKIm/?igsh=MWFzd2U5YTBoNGh4NQ==" target="_blank">Instagram Reel</a></li>
+    <li><a href="https://www.instagram.com/reel/DG5KbSfT6V_/?igsh=MTBjMjAwZzc2NTkzNg==" target="_blank">Instagram Reel</a></li>
+    <li><a href="https://www.instagram.com/reel/DHp35DBRitu/?igsh=MThhc2cwY3JiOGZhZA==" target="_blank">Instagram Reel</a></li>
+    <li><a href="https://www.instagram.com/reel/DD8UYxXTpu5/?igsh=MWtwcnBneG0zMXR3Ng==" target="_blank">Instagram Reel</a></li>
+    
+  </ol>
+</div>
+
+      <div class="card">
+        <h3> Self Organized - Tea Club Event Promo Reel</h3>
+        <ol><li>
+        <a href="https://www.instagram.com/reel/CwFIQt5S7ck/" target="_blank">View Reel</a></li></ol>
+      </div>
+
+      <div class="card">
+        <h3> Freeways ISI Marketing Manager Content </h3>
+        <ol><li>
+        <a href="https://www.instagram.com/freeways_isi/" target="_blank">View IG Page</a></li></ol>
+      </div>
+    </div>
+
+    </div>
+
+
+    
+
+    
+
+  </section>
+
+
+
+  <section>
+    <h2>✉️ Contact</h2>
+    <p>Instagram: <a href="https://www.instagram.com/ss_mariem" target="_blank">@ss_mariem</a><br>
+       Email: <a href="mariemkallel36@gmail.com">mariemkallel36@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Mariem Kallel. Designed with ❤️</p>
+  </footer>
+</body>
+</html>
